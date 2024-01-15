@@ -1,0 +1,131 @@
+{
+    "products": [
+      {
+        "category": "Food",
+        "products": [
+          {
+            "image": "https://cdn.pixabay.com/photo/2023/12/26/21/25/spaghetti-8470982_640.png",
+            "name": "Spaghetti Bolognese",
+            "price": 12.99,
+            "rating": 4.5,
+            "producer": "Italian Delights",
+            "description": "Classic Italian pasta dish with rich Bolognese sauce."
+          },
+          {
+            "image": "https://cdn.pixabay.com/photo/2016/04/25/02/21/grilled-chicken-1351071_640.jpg",
+            "name": "Grilled Chicken Salad",
+            "price": 9.99,
+            "rating": 4.2,
+            "producer": "Blade gate",
+            "description": "Healthy salad with grilled chicken, veggies, and a zesty dressing."
+          }
+        ]
+      },
+      {
+        "category": "Drinks",
+        "products": [
+          {
+            "image": "https://cdn.pixabay.com/photo/2018/02/19/21/17/drink-3166309_640.jpg",
+            "name": "Tropical Smoothie",
+            "price": 4.99,
+            "rating": 4.7,
+            "producer": "Fruit Paradise",
+            "description": "Refreshing smoothie with a blend of tropical fruits."
+          },
+          {
+            "image": "https://cdn.pixabay.com/photo/2018/08/02/19/45/iced-coffee-3580312_640.jpg",
+            "name": "Iced Coffee",
+            "price": 3.49,
+            "rating": 4.0,
+            "producer": "Java Joy Roasters",
+            "description": "Chilled coffee with cream and a hint of sweetness."
+          }
+        ]
+      },
+      {
+        "category": "Pastry",
+        "products": [
+          {
+            "image": "https://cdn.pixabay.com/photo/2015/02/25/13/21/croissant-648803_1280.jpg",
+            "name": "Chocolate Croissant",
+            "price": 2.49,
+            "rating": 4.8,
+            "producer": "Golden Bakery",
+            "description": "Flaky croissant filled with rich chocolate."
+          },
+          {
+            "image": "https://cdn.pixabay.com/photo/2024/01/12/04/09/dessert-8503074_640.jpg",
+            "name": "Blueberry Muffin",
+            "price": 1.99,
+            "rating": 4.4,
+            "producer": "Sweet Cravings",
+            "description": "Soft and moist muffin bursting with blueberries."
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "products": [
+          {
+            "image": "https://cdn.pixabay.com/photo/2021/08/23/18/37/tea-6568547_640.jpg",
+            "name": "Green Tea",
+            "price": 2.99,
+            "rating": 4.5,
+            "producer": "Zen Leaf Farms",
+            "description": "A calming cup of green tea with antioxidants."
+          },
+          {
+            "image": "https://cdn.pixabay.com/photo/2017/01/20/14/59/orange-1995044_640.jpg",
+            "name": "Orange Juice",
+            "price": 1.49,
+            "rating": 4.2,
+            "producer": "Citrus Grove",
+            "description": "Freshly squeezed orange juice for a burst of vitamin C."
+          }
+        ]
+      },
+      {
+        "category": "Fruits",
+        "products": [
+          {
+            "image": "https://cdn.pixabay.com/photo/2015/06/10/19/56/apples-805124_640.jpg",
+            "name": "Apple",
+            "price": 0.99,
+            "rating": 4.6,
+            "producer": "Orchard Fresh",
+            "description": "Crisp and juicy apple, a healthy snack option."
+          },
+          {
+            "image": "https://cdn.pixabay.com/photo/2018/09/24/20/12/bananas-3700718_640.jpg",
+            "name": "Banana",
+            "price": 0.79,
+            "rating": 4.3,
+            "producer": "Tropical Harvest",
+            "description": "Sweet and potassium-rich banana for energy."
+          }
+        ]
+      },
+      {
+        "category": "Vegetables",
+        "products": [
+          {
+            "image": "https://cdn.pixabay.com/photo/2016/06/11/15/33/broccoli-1450274_640.png",
+            "name": "Broccoli",
+            "price": 1.29,
+            "rating": 4.4,
+            "producer": "Green Fields Farm",
+            "description": "Nutrient-packed broccoli for a healthy diet."
+          },
+          {
+            "image": "https://cdn.pixabay.com/photo/2016/07/11/00/18/carrots-1508847_640.jpg",
+            "name": "Carrot",
+            "price": 0.89,
+            "rating": 4.2,
+            "producer": "Roots & Shoots",
+            "description": "Crunchy and vibrant carrots for snacks or cooking."
+          }
+        ]
+      }
+    ]
+  }
+  
