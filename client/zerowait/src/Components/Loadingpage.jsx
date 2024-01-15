@@ -15,7 +15,7 @@ function Loadingpage() {
             </div>
 
 
-        </div>
+        </div>  
     )
 }
 
