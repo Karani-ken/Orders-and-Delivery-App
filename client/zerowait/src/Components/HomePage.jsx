@@ -1,4 +1,5 @@
 import React from "react"
+import {useNavigate} from "react-router-dom"
 import ProfilePic from '../Assets/Images/profile.jpg'
 import SearchIcon from '../Assets/Images/magnifying.png'
 import HomeIcon from '../Assets/Images/home.png'
@@ -6,7 +7,11 @@ import UserIcon from '../Assets/Images/user.png'
 import InboxIcon from '../Assets/Images/inbox.png'
 import WishListIcon from '../Assets/Images/wishlist.png'
 import productsData from '../Assets/products.json'
-function HomePage() {
+function HomePage() {  
+    const navigate = useNavigate();  
+    const handleClick = (product) =>{
+        navigate(`/product/${product.id}`)
+    }
     return (
         <div className='Home-page'>
             <div className="header-section">
@@ -28,12 +33,12 @@ function HomePage() {
                 </section>
 
                 <nav className='scroll-buttons'>
-                    <button className='btn'>All</button>
-                    <button className='btn filter-btn'>Food</button>
-                    <button className='btn filter-btn'>Drinks</button>
-                    <button className='btn filter-btn'>Pastry</button>
-                    <button className='btn filter-btn'>Snacks</button>
-                    <button className='btn filter-btn'>Beverages</button>
+                    <button className='btn-2'>All</button>
+                    <button className='btn-2 filter-btn'>Food</button>
+                    <button className='btn-2 filter-btn'>Drinks</button>
+                    <button className='btn-2 filter-btn'>Pastry</button>
+                    <button className='btn-2 filter-btn'>Snacks</button>
+                    <button className='btn-2 filter-btn'>Beverages</button>
                 </nav>
             </div>
 
@@ -44,16 +49,13 @@ function HomePage() {
                             <ul className="prod-container">
                                 {category.products.map((product) => {
                                     return (
-                                        <li key={product.name} className="product-card">
+                                        <li key={product.id} className="product-card"  onClick={()=>handleClick(product)}>
                                             <img src={product.image} alt="" className="product-image" />
                                             <div className="product-details">
                                                 <h5>{product.name}</h5>
                                                 <p>{product.producer}</p>
                                                 <h6>rating: {product.rating}</h6>
-                                            </div>
-                                            <div className="det-btn">
-                                                <button className="btn">View</button>
-                                            </div>
+                                            </div>                                            
                                         </li>)
                                 })}
 
@@ -69,7 +71,7 @@ function HomePage() {
                     <span><img src={HomeIcon} alt="" className="icon-image"/></span>
                     <span><img src={UserIcon} alt="" className="icon-image"/></span>
                 </div>
-                <button className="btn menu-btn">+</button>
+                <button className="btn-2 menu-btn">+</button>
                 <div className="Right-tab">
                     <span><img src={InboxIcon} alt="" className="icon-image"/></span>
                     <span><img src={WishListIcon} alt="" className="icon-image"/></span>

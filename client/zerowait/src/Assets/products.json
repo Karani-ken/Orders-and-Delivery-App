@@ -4,6 +4,7 @@
         "category": "Food",
         "products": [
           {
+            "id":1,
             "image": "https://cdn.pixabay.com/photo/2023/12/26/21/25/spaghetti-8470982_640.png",
             "name": "Spaghetti Bolognese",
             "price": 12.99,
@@ -12,6 +13,7 @@
             "description": "Classic Italian pasta dish with rich Bolognese sauce."
           },
           {
+            "id":2,
             "image": "https://cdn.pixabay.com/photo/2016/04/25/02/21/grilled-chicken-1351071_640.jpg",
             "name": "Grilled Chicken Salad",
             "price": 9.99,
@@ -25,6 +27,7 @@
         "category": "Drinks",
         "products": [
           {
+            "id":3,
             "image": "https://cdn.pixabay.com/photo/2018/02/19/21/17/drink-3166309_640.jpg",
             "name": "Tropical Smoothie",
             "price": 4.99,
@@ -33,6 +36,7 @@
             "description": "Refreshing smoothie with a blend of tropical fruits."
           },
           {
+            "id":4,
             "image": "https://cdn.pixabay.com/photo/2018/08/02/19/45/iced-coffee-3580312_640.jpg",
             "name": "Iced Coffee",
             "price": 3.49,
@@ -46,6 +50,7 @@
         "category": "Pastry",
         "products": [
           {
+            "id":5,
             "image": "https://cdn.pixabay.com/photo/2015/02/25/13/21/croissant-648803_1280.jpg",
             "name": "Chocolate Croissant",
             "price": 2.49,
@@ -54,6 +59,7 @@
             "description": "Flaky croissant filled with rich chocolate."
           },
           {
+            "id":6,
             "image": "https://cdn.pixabay.com/photo/2024/01/12/04/09/dessert-8503074_640.jpg",
             "name": "Blueberry Muffin",
             "price": 1.99,
@@ -67,6 +73,7 @@
         "category": "Beverages",
         "products": [
           {
+            "id":7,
             "image": "https://cdn.pixabay.com/photo/2021/08/23/18/37/tea-6568547_640.jpg",
             "name": "Green Tea",
             "price": 2.99,
@@ -75,6 +82,7 @@
             "description": "A calming cup of green tea with antioxidants."
           },
           {
+            "id":8,
             "image": "https://cdn.pixabay.com/photo/2017/01/20/14/59/orange-1995044_640.jpg",
             "name": "Orange Juice",
             "price": 1.49,
@@ -88,6 +96,7 @@
         "category": "Fruits",
         "products": [
           {
+            "id":9,
             "image": "https://cdn.pixabay.com/photo/2015/06/10/19/56/apples-805124_640.jpg",
             "name": "Apple",
             "price": 0.99,
@@ -96,6 +105,7 @@
             "description": "Crisp and juicy apple, a healthy snack option."
           },
           {
+            "id":10,
             "image": "https://cdn.pixabay.com/photo/2018/09/24/20/12/bananas-3700718_640.jpg",
             "name": "Banana",
             "price": 0.79,
@@ -109,6 +119,7 @@
         "category": "Vegetables",
         "products": [
           {
+            "id":11,
             "image": "https://cdn.pixabay.com/photo/2016/06/11/15/33/broccoli-1450274_640.png",
             "name": "Broccoli",
             "price": 1.29,
@@ -117,6 +128,7 @@
             "description": "Nutrient-packed broccoli for a healthy diet."
           },
           {
+            "id":12,
             "image": "https://cdn.pixabay.com/photo/2016/07/11/00/18/carrots-1508847_640.jpg",
             "name": "Carrot",
             "price": 0.89,

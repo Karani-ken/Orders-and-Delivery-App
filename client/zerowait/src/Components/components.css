@@ -99,7 +99,7 @@ nav {
     border: none;
     padding: 0.5rem;
 }
-.btn{
+.btn-2{
     background: #F81405;
     color: #fff;
     border: none;
@@ -180,6 +180,7 @@ li{
     height: 50px;
 }
 .menu-btn{
+    text-align: center;
     width: 70px;
     height: 70px;
     border-radius: 100%;     
