@@ -1,6 +1,10 @@
 import React from "react"
 import ProfilePic from '../Assets/Images/profile.jpg'
 import SearchIcon from '../Assets/Images/magnifying.png'
+import HomeIcon from '../Assets/Images/home.png'
+import UserIcon from '../Assets/Images/user.png'
+import InboxIcon from '../Assets/Images/inbox.png'
+import WishListIcon from '../Assets/Images/wishlist.png'
 import productsData from '../Assets/products.json'
 function HomePage() {
     return (
@@ -58,6 +62,17 @@ function HomePage() {
                         </div>)
                     })}
 
+                </div>
+            </section>
+            <section className="down-menu">
+                <div className="left-tab">
+                    <span><img src={HomeIcon} alt="" className="icon-image"/></span>
+                    <span><img src={UserIcon} alt="" className="icon-image"/></span>
+                </div>
+                <button className="btn menu-btn">+</button>
+                <div className="Right-tab">
+                    <span><img src={InboxIcon} alt="" className="icon-image"/></span>
+                    <span><img src={WishListIcon} alt="" className="icon-image"/></span>
                 </div>
             </section>
         </div>
