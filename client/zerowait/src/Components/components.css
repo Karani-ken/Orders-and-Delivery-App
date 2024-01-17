@@ -186,3 +186,32 @@ li{
     border-radius: 100%;     
     font-size: 40px;
 }
+.profile-page{
+    background:#F81405;   
+           
+}
+.dp-image{   
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+.details-section{
+    background: #fff;   
+    border-radius:6% 6% 0 0;
+    padding: 10%; 
+    height: 100%;   
+    margin-top: -60px;
+}
+.input-span{
+    border: 2px #000 solid;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+.input-span label{
+    font-weight: bold;    
+}
+.input-span input{
+    border: none;
+    font-size: 20px;
+}

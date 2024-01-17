@@ -12,6 +12,9 @@ function HomePage() {
     const handleClick = (product) =>{
         navigate(`/product/${product.id}`)
     }
+    const navigateToProfile = ()=>{
+        navigate('/profile')
+    }
     return (
         <div className='Home-page'>
             <div className="header-section">
@@ -20,7 +23,7 @@ function HomePage() {
                         <h2 className="logo">ZeroWaits</h2>
                         <p className='slogan'>Order now! We deliver fast.</p>
                     </div>
-                    <div className="profile-image">
+                    <div className="profile-image" onClick={navigateToProfile}>
                         <img src={ProfilePic} alt="" />
                     </div>
                 </nav>

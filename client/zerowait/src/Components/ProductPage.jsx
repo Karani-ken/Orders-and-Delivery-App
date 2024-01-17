@@ -18,7 +18,7 @@ function ProductPage() {
             <img src={product.image} alt="" style={{ width: '100%', height: "300px", borderRadius: '10px' }} className="mb-4" />
             <div>
                 <h2>{product.name}</h2>
-                <p>{product.producer}</p>
+                <p>Vendor: {product.producer}</p>
                 <div>
                     <p className="fw-bolder">rating: {product.rating}</p>
                     <p className="fw-semibold">estimated delivery: 26 mins</p>
