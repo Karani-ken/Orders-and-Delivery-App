@@ -1,11 +1,13 @@
 import React from 'react'
 import ArrowIcon from '../Assets/Images/arrow.png'
+import { useNavigate } from 'react-router-dom'
 import ProfilePic from '../Assets/Images/profile.jpg'
 function ProfilePage() {
+    const navigate = useNavigate();
     return (
         <div className='profile-page'>
             <div className='icons'>
-                <img src={ArrowIcon} alt="" className='icon-image p-1' />
+                <img src={ArrowIcon} alt="" className='icon-image p-1' onClick={()=> navigate('/')} />
             </div>
             <div className='d-flex justify-content-center mt-5'>
                 <img src={ProfilePic} alt="" className='dp-image' />

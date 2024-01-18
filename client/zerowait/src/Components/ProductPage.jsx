@@ -35,7 +35,8 @@ function ProductPage() {
             </div>
             <div className="d-flex justify-content-around align-items-center py-5">
                 <h4 className="btn-2 text-center px-5 py-3">{product.price}/=</h4>
-                <button className="btn-2" style={{background:'rgba(0,0,0,0.65)'}}>Order now</button>
+                <button className="btn-2" style={{background:'rgba(0,0,0,0.65)'}}
+                onClick={()=> navigate('/checkout-page')}>Order now</button>
             </div>
         </div>
     )
