@@ -32,7 +32,7 @@ function HomePage() {
                         <img src={SearchIcon} alt="" />
                         <input type="text" placeholder='type here....' />
                     </div>
-                    <button className='btn'>Enter</button>
+                    <button className='btn-2'>Enter</button>
                 </section>
 
                 <nav className='scroll-buttons'>
@@ -55,9 +55,9 @@ function HomePage() {
                                         <li key={product.id} className="product-card"  onClick={()=>handleClick(product)}>
                                             <img src={product.image} alt="" className="product-image" />
                                             <div className="product-details">
-                                                <h5>{product.name}</h5>
+                                                <p>{product.name}</p>
                                                 <p>{product.producer}</p>
-                                                <h6>rating: {product.rating}</h6>
+                                                <p>rating: {product.rating}</p>
                                             </div>                                            
                                         </li>)
                                 })}
